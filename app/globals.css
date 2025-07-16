@@ -1,26 +1,95 @@
 @import "tailwindcss";
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #16161C;
+  --foreground: #ededed;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  /* background: var(--background);
-  color: var(--foreground); */
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: var(--foreground);
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+p {
+  color: var(--foreground);
+}
+
+.explicacao-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px 64px;
+}
+
+.explicacao-grid p {
+  text-align: justify;
+}
+
+.container {
+  min-width: 880px;
+  max-width: 1024px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.two-column-grid {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.direitos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 82px 82px 82px 82px 82px;
+  gap: 24px 32px;
+}
+
+.direito-lgpd {
+  background-color: white;
+  color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.alinhadoAEsquerda {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.alinhadoADireita {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.centralizado {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.destaque {
+  font-size: 22px;
 }
