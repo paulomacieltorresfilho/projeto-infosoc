@@ -58,7 +58,7 @@ export default function Home() {
           </section>
           <section id="relatos-pessoais">
             <h2>Relatos Pessoais</h2>
-            <p style={{ marginBottom: "16px" }}>Tem um relato que quer compartilhar conosco? <a href="" target="_blank"><b>Clique aqui!</b></a></p>
+            <p style={{ marginBottom: "16px" }}>Tem um relato que quer compartilhar conosco? <a href="https://forms.gle/GBHQskwRVar481aE9" target="_blank"><b>Clique aqui!</b></a></p>
             <div className="relatos-grid">
               <p className="relato">São muitos pra conseguir relatar todos sucintamente.</p>
               <p className="relato">Eu tenho experiências junto à Drogasil, junto à Gol, à Dell, Banco do Brasil (inclusive com reclamação no ReclameAqui) e UnB.</p>
