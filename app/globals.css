@@ -207,3 +207,9 @@ menu>li {
     grid-column: 1 / 2;
   }
 }
+
+@media (width <=600px) {
+  .relatos-grid {
+    grid-template-columns: 1fr;
+  }
+}
