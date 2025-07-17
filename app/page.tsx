@@ -66,18 +66,29 @@ export default function Home() {
               <p className="relato">Depois de solicitar o direito de esquecimento das farmácias, eles solicitam 30 dias para a exclusão de dados. E após 2 messes de ter feito este pedido, farmácias ainda mantiveram meus dados, pois ao comprar algo, eles já tinham cadastro com todos meus dados, mesmo sendo que era para ter sido excluído.</p>
               <p className="relato">Após a minha retificação de nome e gênero, o departamento de matemática não havia alterado meus dados em seus sistemas, mesmo que todos os outros sistemas da UnB haviam alterado estes dados.</p>
               <p className="relato">Após alterar meu nome no sistema do banco do Nubank, pessoas que já haviam me mandado pix alguma vez ainda recebem meus dados antigos, mesmo tendo ocorrido a mudança de nome no sistema.</p>
-              <p className="relato">O site/app de banco foi alta funçao pra conseguir trocar, nao conseguia a informaçao do que fazer em nenhum lugar. Felizmente, uma atendente disse pra excluir meu cpf e re-inserir, o que finalmente fez funcionar de vez (antes, meu nome morto aparecia as vezes ao abrir o app, e sempre que me enviavam pix). No entanto, no app da 99taxi, nao aceitam minha confirmaçao de identidade de forma alguma, dizendo que o cpf e o nome nao condizem. (Ja sou retificado ha mais de meia década) </p>
+              <p className="relato">O site/app de banco foi alta funçao pra conseguir trocar, nao conseguia a informaçao do que fazer em nenhum lugar. Felizmente, uma atendente disse pra excluir meu cpf e re-inserir, o que finalmente fez funcionar de vez (antes, meu nome morto aparecia as vezes ao abrir o app, e sempre que me enviavam pix). No entanto, no app da 99taxi, nao aceitam minha confirmaçao de identidade de forma alguma, dizendo que o cpf e o nome nao condizem. (Ja sou retificado ha mais de meia década).</p>
+              <p className="relato">Empresa não removeu meu endereço de email de seu banco de dados e continua a enviar mensagens.</p>
+              <p className="relato">Não recordo nomes, mas já tive experiências de sites de compra não possuírem a opção de apagar a conta.</p>
             </div>
 
           </section>
-          <section>
+          <section id="ser-ouvido">
             <h2>Como ser ouvido e garantir seus direitos?</h2>
-            <p>
+            <p style={{ marginBottom: "16px" }}>
               O <b>canal de interlocução</b> para o tratamento e proteção de dados pessoais no órgão é a Ouvidoria-Geral, por meio da <a href="https://falabr.cgu.gov.br/web/home" target="_blank"><b>Plataforma Fala.BR</b></a>.
-              No Fala.BR é possível registrar <b>manifestações</b> (Ouvidoria) ou <b>pedidos de acesso à informação</b> (SIC).</p>
+              No Fala.BR é possível registrar <b>manifestações</b> (Ouvidoria) ou <b>pedidos de acesso à informação</b> (SIC).
+            </p>
+            <p className="subsection" style={{ marginBottom: "8px" }}><b>Na UnB</b></p>
+            <p style={{ marginBottom: "8px" }}>Alguns dados podem ser atualizados pelo próprio aluno. Caso tenha alguma dificuldade, o aluno deve entrar em contato via e-mail <b>saaatendimento@unb.br</b>.</p>
+            <p>Para realizar reclamações, o meio é a Ouvidoria da Unb, pelo site <a href="https://ouvidoria.unb.br/" target="_blank"><b>https://ouvidoria.unb.br/</b></a>. As reclamações podem ser <b>anônimas</b>.</p>
           </section>
           <section id="mini-glossario">
             <h2>Mini Glossário</h2>
+            <p><b>Tratamento</b>: toda operação realizada com dados pessoais;</p>
+            <p><b>Titular</b>: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;</p>
+            <p><b>Controlador</b>: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;</p>
+            <p><b>Violação de dados pessoais</b>: é uma violação de segurança que provoca, de modo acidental ou ilícito, a destruição, a perda, a alteração, a divulgação ou o acesso não autorizado a dados pessoais transmitidos, conservados ou sujeitos a qualquer outro tipo de tratamento;</p>
+            <p><b>Garantia da segurança da informação</b>: capacidade de sistemas e organizações assegurarem a disponibilidade, a integridade, a confidencialidade e a autenticidade da informação. A Política Nacional de Segurança da Informação (PNSI) dispõe sobre a governança da segurança da informação aos órgãos e às entidades da administração pública federal em seu âmbito de atuação;</p>
           </section>
         </div>
         <nav>
@@ -89,6 +100,7 @@ export default function Home() {
             <li><a href="#penalidades">Penalidades</a></li>
             <li><a href="#seus-direitos">Seus direitos</a></li>
             <li><a href="#relatos-pessoais">Relatos pessoais</a></li>
+            <li><a href="#ser-ouvido">Quero ser ouvido</a></li>
             <li><a href="#mini-glossario">Mini Glossário</a></li>
           </menu>
         </nav>

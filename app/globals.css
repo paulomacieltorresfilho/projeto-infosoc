@@ -34,7 +34,7 @@ h2 {
 
 p {
   color: var(--foreground);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 a {
@@ -171,6 +171,15 @@ menu>li {
 .relato::after,
 .relato::before {
   content: '❝';
+}
+
+#mini-glossario>p {
+  /* font-size: 19px; */
+  margin-bottom: 8px;
+}
+
+.subsection {
+  font-size: 19px;
 }
 
 @media (width <=990px) {
